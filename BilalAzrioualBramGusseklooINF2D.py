@@ -180,7 +180,6 @@ def fromjson(object):
     newobject = json.loads(object)
     return newobject
 
-
 # Run the program
 program(createClient())
 quit(0)
